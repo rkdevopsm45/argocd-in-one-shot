@@ -13,7 +13,7 @@ Before starting, ensure you have the following installed on your system:
    ```bash
    sudo apt-get update
    sudo apt install docker.io -y
-   sudo usermod -aG docker $USER && newgrp docker
+   sudo usermod -aG docker $USER && newgrp docker (This command lets your current user run Docker commands without using sudo)
    docker --version
 
    docker ps
